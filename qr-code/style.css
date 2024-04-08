@@ -46,3 +46,9 @@ body{
     color: hsl(220, 15%, 55%);
     font-size: 15px;
 }
+
+body > p {
+    position: fixed;
+    right: 50px;
+    bottom: 5px;
+}
