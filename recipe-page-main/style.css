@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+    background-color:  hsl(30, 54%, 90%)
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+}
+
+.img{
+    width: 640px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.brown{
+    color: hsl(14, 45%, 36%)
+}
+
+.n{
+    display: inline;
+    font-weight: bold;
+}
+
+ol{
+    text-align: justify;
+}
+
+.main{
+    width: 700px;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%); 
+    color: hsl(30, 10%, 34%); 
+    border-radius: 20px;
+}
+
+.main * {
+    background-color: hsl(0, 0%, 100%);
+    padding: 5px;
+  
+}
+
+
+.perp *{
+    background-color:  hsl(330, 100%, 98%);
+    border-radius: 10px;
+    list-style-position: inside;
+  
+    
+}
+
+
+ol , ul{
+    list-style-position: inside;
+}
+
+
+
+h1{
+    font-family: 'Young Serif';
+    font-size: 40px;
+}
+
+
+h2{
+    font-family: 'Young Serif';
+}
+
+
+.list{
+    display: inline;
+    font-weight: 600;
+}
+
+
+.attribution{
+        position: fixed;
+        right: 20px;
+        bottom: 5px;
+}
+
+
+.hr{
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      margin: 20px;
+    }
+    
+    .main {
+      width: calc(100% - 40px); 
+      padding: 20px; 
+      overflow: auto; 
+    }
+    
+    .img {
+      width: 100%; 
+      border-radius: 10px; 
+      margin-bottom: 10px; 
+    }
+    
+    .h1-desci p {
+      font-size: 16px; 
+    }
+  }
+  
